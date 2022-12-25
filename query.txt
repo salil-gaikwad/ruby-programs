@@ -1,0 +1,7 @@
+# W.A.Q to show 'TRUE' when boolean value is true else show 'FALSE'
+
+SELECT type,
+CASE WHEN event_details = true THEN 'TRUE' ELSE 'FALSE' END AS event_details
+FROM events;
+
+###############################################################################
